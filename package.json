@@ -1,0 +1,38 @@
+{
+  "name": "@rysun/security-gate",
+  "version": "1.1.6",
+  "description": "",
+  "keywords": ["security-gate"],
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js", 
+  "bin": {
+    "security_gate": "./lib/esm/main.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "build:watch": "tsc -w"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rysunlabs/rysun-security-gate"
+  },
+  "author": "Jayrajsinh zala",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/glob": "^8.0.0",
+    "@types/node": "^18.11.18"
+  },  
+  "dependencies": {
+    "glob": "^8.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/rysunlabs/rysun-security-gate/issues"
+  },
+  "homepage": "https://github.com/rysunlabs/rysun-security-gate#readme"
+}

@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+node ./node_modules/@rysun/security-gate/dist/index.js
