@@ -24,7 +24,7 @@ v=$\{b%%[)| ]*}
 
 export PATH="$NVM_DIR/versions/node/$v/bin:$PATH"
 
-node ./node_modules/@rysun/security-gate/dist/index.js`
+node ./node_modules/@rysun/security-gate/lib/esm/index.js`
 
 // write that template in pre-commit and pre-push shell files in the OS type is 'Linux'
 if(type === "Linux"){

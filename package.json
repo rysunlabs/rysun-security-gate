@@ -1,39 +1,53 @@
 {
   "name": "@rysun/security-gate",
-  "version": "1.1.6",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Check the security of all console.log () files with .js, .ts, .jsx, and .tsx extensions in prod.",
   "type": "module",
-  "keywords": ["security-gate"],
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js", 
-  "bin": {
-    "security_gate": "./lib/esm/main.js"
-  },
+  "keywords": [
+    "security_gate",
+    "Glob",
+    "Git",
+    "Hooks",
+    "Pre-commit",
+    "Pre-push",
+    "git",
+    "security-gates",
+    "gateway-security",
+    "Security"
+  ],
+  "main": "./lib/cjs/main.js",
+  "module": "./lib/esm/main.js",
   "scripts": {
+    "version-select": "version-select",
     "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "build:watch": "tsc -w"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "bin": {
+    "security_gate": "./lib/cjs/main.js"
   },
   "files": [
-    "lib/"
+    "lib/",
+    ".security-gate"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rysunlabs/rysun-security-gate"
+    "url": "https://github.com/rysuncommunity/rysun-security-gate"
   },
-  "author": "Jayrajsinh zala",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "coderyser",
   "license": "ISC",
   "devDependencies": {
     "@types/glob": "^8.0.0",
-    "@types/node": "^18.11.18"
-  },  
+    "@types/node": "^18.11.18",
+    "version-select": "^1.0.13"
+  },
   "dependencies": {
     "glob": "^8.0.3"
   },
   "bugs": {
-    "url": "https://github.com/rysunlabs/rysun-security-gate/issues"
+    "url": "https://github.com/rysuncommunity/rysun-security-gate/issues"
   },
-  "homepage": "https://github.com/rysunlabs/rysun-security-gate#readme"
+  "homepage": "https://github.com/rysuncommunity/rysun-security-gate#readme"
 }
