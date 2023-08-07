@@ -31,7 +31,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rysunlabs/rysun-security-gate"
+    "url": "https://github.com/rysuncommunity/rysun-security-gate"
   },
   "publishConfig": {
     "access": "public"
@@ -47,7 +47,7 @@
     "glob": "^8.0.3"
   },
   "bugs": {
-    "url": "https://github.com/rysunlabs/rysun-security-gate/issues"
+    "url": "https://github.com/rysuncommunity/rysun-security-gate/issues"
   },
-  "homepage": "https://github.com/rysunlabs/rysun-security-gate#readme"
+  "homepage": "https://github.com/rysuncommunity/rysun-security-gate#readme"
 }
