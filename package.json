@@ -1,8 +1,7 @@
 {
   "name": "@rysun/security-gate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check the security of all console.log () files with .js, .ts, .jsx, and .tsx extensions in prod.",
-  "type": "module",
   "keywords": [
     "security_gate",
     "Glob",
