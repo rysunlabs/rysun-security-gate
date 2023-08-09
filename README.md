@@ -1,6 +1,6 @@
 # @rysun/security-gate
 
-This package provides the security that check the console.log() in all files the endswith .js, .ts, .jsx, .tsx extensions. it will through an error if the console.log() is exist in any files and it won't allow user to make commit through command or any GUI. 
+This package provides the security that check the console.log() in all files the ends with .js, .ts, .jsx, .tsx extensions. it will through an error if the console.log() is exist in any files and it won't allow user to make commit through command or any GUI. 
 
 ## Installation & Usage
 
