@@ -36,7 +36,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "coderyser",
+  "author": "rysun",
   "license": "ISC",
   "devDependencies": {
     "@types/glob": "^8.0.0",
