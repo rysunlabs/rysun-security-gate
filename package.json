@@ -1,5 +1,5 @@
 {
-  "name": "@coderysers/security-gate",
+  "name": "@rysun/security-gate",
   "version": "1.0.0",
   "description": "Check the security of all console.log () files with .js, .ts, .jsx, and .tsx extensions in prod.",
   "type": "module",
@@ -36,7 +36,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "coderysers",
+  "author": "rysun",
   "license": "ISC",
   "devDependencies": {
     "@types/glob": "^8.0.0",
