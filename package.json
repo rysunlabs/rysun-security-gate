@@ -38,11 +38,11 @@
   "author": "rysun",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.6.0",
+    "@types/node": "^20.8.4",
     "version-select": "^1.0.13"
   },
   "dependencies": {
-    "glob": "^10.3.4"
+    "glob": "^10.3.10"
   },
   "bugs": {
     "url": "https://github.com/rysuncommunity/rysun-security-gate/issues"
