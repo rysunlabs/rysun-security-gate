@@ -1,6 +1,6 @@
 {
   "name": "@rysun/security-gate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Check the security of all console.log () files with .js, .ts, .jsx, and .tsx extensions in prod. ",
   "keywords": [
     "security_gate",
@@ -42,7 +42,7 @@
     "version-select": "^1.0.13"
   },
   "dependencies": {
-    "glob": "^10.3.10"
+    "glob": "^11.0.0"
   },
   "bugs": {
     "url": "https://github.com/rysuncommunity/rysun-security-gate/issues"
