@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 import { exec } from "child_process";
 import os from "os";
-import fs from "fs/promises"; // Use fs/promises to utilize promise-based API
+import fs from "fs/promises";
 
-// Function to execute shell commands using async/await
 const execAsync = (command: string): Promise<void> => {
   return new Promise((resolve, reject) => {
     exec(command, (error) => {
